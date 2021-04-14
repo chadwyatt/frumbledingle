@@ -1,6 +1,8 @@
 ## Note from Chad
 I completed the excercise without much added beyond the oringal request, but hopefully, it will demonstrate enough of what you're looking for. There are clear gaps, like form validation, authentication, content editing UI, responsive styling, etc. Thanks for taking the time to review this. Let me known if you have any questions.
 
+In addition to the normal setup, you'll want to run `npm install` (noted below) as well. I'm assuming your .env points to an existing populated database.
+
 Chad Wyatt  
 (719) 659-4934  
 [chad@chadwyatt.com](mailto:chad@chadwyatt.com)
@@ -42,6 +44,7 @@ Frumbledingle Corp is struggling with its warehouse management, and has been loo
 - Run `composer install`
 - Make sure to set the database information your `.env` file
 - Run `php artisan migrate`
+- Run `npm install`
 - Host the app however you'd prefer, but use `npm run dev` or `npm run watch` to compile the Vue components
 
 ## The Data
