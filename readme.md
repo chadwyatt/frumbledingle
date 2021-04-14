@@ -1,3 +1,12 @@
+## Chad's Notes
+I completed the excercise without much (if any) added beyond the oringal request, but hopefully, it will demonstrate enough of what you're looking for. There are clear gaps, like form validation, authentication, content editing UI, styling, etc. Thanks for taking the time to review this. Let me known if you have any questions.
+
+Chad Wyatt  
+(719) 659-4934  
+[chad@chadwyatt.com](mailto:chad@chadwyatt.com)
+
+---
+
 You've made it this far! But this is your next challenge!
 
 ## The Problem
