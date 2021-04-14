@@ -1,9 +1,16 @@
-## Chad's Notes
-I completed the excercise without much (if any) added beyond the oringal request, but hopefully, it will demonstrate enough of what you're looking for. There are clear gaps, like form validation, authentication, content editing UI, styling, etc. Thanks for taking the time to review this. Let me known if you have any questions.
+## Note from Chad
+I completed the excercise without much added beyond the oringal request, but hopefully, it will demonstrate enough of what you're looking for. There are clear gaps, like form validation, authentication, content editing UI, responsive styling, etc. Thanks for taking the time to review this. Let me known if you have any questions.
 
 Chad Wyatt  
 (719) 659-4934  
 [chad@chadwyatt.com](mailto:chad@chadwyatt.com)
+
+<div style="text-align:center;margin:50px 0;">
+<img src="https://user-images.githubusercontent.com/366094/114738253-cc284f80-9d15-11eb-94db-12d6c2e127d3.png" alt="image" style="
+    max-width: 70%;
+    border: 1px solid #ccc;
+">
+</div>
 
 ---
 
