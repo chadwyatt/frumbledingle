@@ -44,7 +44,7 @@ Frumbledingle Corp is struggling with its warehouse management, and has been loo
 - Run `composer install`
 - Make sure to set the database information your `.env` file
 - Run `php artisan migrate`
-- Run `npm install`
+- Run `npm install` (added)
 - Host the app however you'd prefer, but use `npm run dev` or `npm run watch` to compile the Vue components
 
 ## The Data
