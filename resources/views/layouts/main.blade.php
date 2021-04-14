@@ -27,20 +27,31 @@
 </head>
 
 <body>
-    <div id="app-container">
+    <div id="app">
         <div class="logo"><i class="fa fa-object-group"></i> Frumbledingle Corp</div>
-        <nav class="navbar navbar-expand-lg">
-            <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/locations">Locations</a></li>
-                <li class="nav-item"><a class="nav-link" href="/items">Items</a></li>
-                <li class="nav-item"><a class="nav-link" href="/categories">Categories</a></li>
-                <li class="nav-item"><a class="nav-link" href="/report">Report</a></li>
-            </ul>
-        </nav>
-        @yield('content')
+        <header class="p-3 bg-dark text-white justify-content-center mb-4">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center">
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="/" class="nav-link px-2 text-white">Home</a></li>
+                        <li><a href="/locations" class="nav-link px-2 text-white">Locations</a></li>
+                        <li><a href="/items" class="nav-link px-2 text-white">Items</a></li>
+                        <li><a href="/categories" class="nav-link px-2 text-white">Categories</a></li>
+                        <li><a href="/report" class="nav-link px-2 text-white">Report</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            @yield('content')
+        </div>
     </div>
     <script src=" {{ elixir('js/app.js') }}"></script>
+    <style>
+    a.nav-link.text-white:hover {
+        color: #afaeae !important;
+    }
+    </style>
 </body>
 
 </html>

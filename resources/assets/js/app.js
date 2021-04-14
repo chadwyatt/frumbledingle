@@ -14,4 +14,4 @@ Vue.component('categories-table', require('./components/CategoriesTable.vue'));
 Vue.component('items-table', require('./components/ItemsTable.vue'));
 Vue.component('report-table', require('./components/ReportTable.vue'));
 
-new Vue({el: '#app-container'});
+new Vue({el: '#app'});
