@@ -10,6 +10,7 @@ class ReportController extends Controller
 {
     public function index(Request $request)
     {
+        //There's probably a more Eloquent way of doing this
         $report = DB::table('items')
             ->select('locations.name as location', 'parent.name as parentCategory', 'categories.name as category', DB::raw('COUNT(items.id) as count'))
             ->leftJoin('locations', 'items.location_id', '=', 'locations.id')
