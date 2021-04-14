@@ -27,7 +27,7 @@
 </head>
 
 <body>
-    <div id="app">
+    <div id="app" class="mb-5">
         <div class="logo"><i class="fa fa-object-group"></i> Frumbledingle Corp</div>
         <header class="p-3 bg-dark text-white justify-content-center mb-4">
             <div class="container">
